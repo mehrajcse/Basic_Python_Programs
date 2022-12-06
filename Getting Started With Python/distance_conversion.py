@@ -14,6 +14,3 @@ inches=distance*39370.
 print(distance,"KM" ,'=',inches,'Inches')
 centimeter=distance*100000
 print(distance,"KM" ,'=',centimeter,'Centimeters \n')
-
-
-

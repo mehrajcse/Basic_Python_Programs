@@ -7,31 +7,30 @@ town is 80,000
 
 #Program to find the number of illiterate men and women in a town
 
-total_population=80000
-print("Total population of a town = ",total_population)
-total_literacy=48/100*total_population
-print("The percentage of total literacy is 48% which is : ",total_literacy)
-total_illiteracy=total_population-total_literacy
-print("Therefore total illiterate persons in town are : ",total_illiteracy)
+TOTAL_POPULATION=80000
+print("Total population of a town = ",TOTAL_POPULATION)
+TOTAL_LITERACY=48/100*TOTAL_POPULATION
+print("The percentage of total literacy is 48% which is : ",TOTAL_LITERACY)
+TOTAL_ILLITERACY=TOTAL_POPULATION-TOTAL_LITERACY
+print("Therefore total illiterate persons in town are : ",TOTAL_ILLITERACY)
 
-men_population=52/100*total_population
-women_population=total_population-men_population
+MEN_POPULATION=52/100*TOTAL_POPULATION
+WOMEN_POPULATION=TOTAL_POPULATION-MEN_POPULATION
 
-print("Population of men = ",men_population)
-print("Population of women = ",women_population)
-
-
-literate_men=35/100*total_population
-literate_women=women_population-literate_men
-
-print("Population of literate men : ",literate_men)
-print("Population of literate womwn : ",literate_women)
+print("Population of men = ",MEN_POPULATION)
+print("Population of women = ",WOMEN_POPULATION)
 
 
-illiterate_men = men_population-literate_men
-illiterate_women =women_population-literate_women
+LITERATE_MEN=35/100*TOTAL_POPULATION
+LITERATE_WOMEN=WOMEN_POPULATION-LITERATE_MEN
+
+print("Population of literate men : ",LITERATE_MEN)
+print("Population of literate womwn : ",LITERATE_WOMEN)
+
+
+ILLITERATE_MEN = MEN_POPULATION-LITERATE_MEN
+ILLITERATE_WOMEN =WOMEN_POPULATION-LITERATE_WOMEN
 print("\n")
 
-print("Total number of illiterate men : ",illiterate_men)
-print("Total number  of illiterate women : ",illiterate_women)
-
+print("Total number of illiterate men : ",ILLITERATE_MEN)
+print("Total number  of illiterate women : ",ILLITERATE_WOMEN)

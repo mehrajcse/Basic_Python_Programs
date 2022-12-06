@@ -25,7 +25,3 @@ e=trun4%10
 
 add=a + b + c + d + e
 print("The sum of digits of the number ",number, "is : ",add)
-
-
-
-

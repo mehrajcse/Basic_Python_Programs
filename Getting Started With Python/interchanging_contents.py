@@ -9,5 +9,3 @@ D=int(input("Enter number at location D : "))
 print("original location : C=",C ,"and" ,"D=",D)
 C,D==D,C
 print("Interchanged location : C=",D ,"and" ,"D=",C)
-
-
